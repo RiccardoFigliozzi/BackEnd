@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  {% block body %}
+  <div class="grid place-items-center h-screen">
+    <div class="font-bold text-6xl">Payment failed</div>
+    <a class="bg-green-500 font-bold text-white px-4 py-2" href="{% url 'index' %}" download="">Go back to the home</a>
+  </div>
+  {% endblock %}
+</html>
+

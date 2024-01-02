@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  {% block body %}
+    <div class="flex">
+      <div class="product shadow-lg w-1/4 rounded-lg m-10">
+        <div class="product-image">
+          <img src="{{ product.file }}" alt="" />
+        </div>
+        <div class="p-5">
+          <div class="text-4xl mb-4">{{ product.name }}</div>
+          <div class="mb-4">{{ product.description }}</div>
+          <div class="mb-4 text-green-700 font-bold">${{ product.price }}</div>
+          <div>
+            <button id="checkout-button" class="bg-green-500 text-white px-4 py-2 rounded-sm">Buy</button>
+          </div>
+          <div id="myemail" hidden>{{ request.user.email }}</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script type="text/javascript">
+      var stripe = Stripe("{{stripe_publishable_key}}")
+      var checkoutButton = document.getElementById("checkout-button")
+      checkoutButton.addEventListener("click", function () {
+        var email = document.getElementById("myemail").innerText
+        if (email.length == 0) {
+          alert("Please enter your email")
+          return
+        }
+        fetch("{% url "api_checkout_session" id=product.id %}", {
+          method: "POST",
+          body: JSON.stringify(
+            { 'email': email },
+            )
+        })
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (session) {
+            return stripe.redirectToCheckout({ sessionId: session.sessionId });
+          })
+          .then(function (result) {
+            if (result.error) {
+              alert(result.error.message);
+            }
+          })
+          .catch(function (error) {
+            console.error("Error:", error);
+          });
+      });
+    </script>
+  {% endblock %}
+</html>

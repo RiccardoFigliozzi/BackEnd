@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="shadow-lg">
+      <div class="flex flex-wrap justify-between ml-5 items-center mx-auto px-4 py-2.5">
+        <a class="flex items-center" href="{% url 'index' %}">
+          <img class="h-6 mr-3" src="https://cdn0.iconfinder.com/data/icons/essentials-4/1698/shopping_bag_2-1024.png" alt="" />
+          <span class="self-center text-xml font-semibold">Digital Marketplace</span>
+        </a>
+        <div class="flex items-center">
+          <a class="mr-6 text-sm font-medium text-grey-500" href="{% url 'dashboard' %}">Dashboard</a>
+          <a class="mr-6 text-sm font-medium text-grey-500" href="{% url 'sales' %}">Sales</a>
+          <a class="mr-6 text-sm font-medium text-grey-500" href="{% url 'createproduct' %}">Create Product</a>
+          <a class="mr-6 text-sm font-medium text-grey-500" href="{% url 'purchases' %}">My Purchases</a>
+          <a class="mr-6 text-sm font-medium text-grey-500" href="{% url 'logout' %}">Logout</a>
+        </div>
+      </div>
+    </nav>
+    {% block body %}
+
+    {% endblock %}
+  </body>
+</html>
