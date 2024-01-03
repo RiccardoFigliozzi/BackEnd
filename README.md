@@ -15,6 +15,7 @@ Here the major frameworks/libraries used in these projects:
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 * [![Tailwind][Tailwind]][Tailwind-url]
+* [![Stripe][Stripe]][Stripe-url]
 
 
 <!-- CONTACT -->
@@ -41,3 +42,5 @@ Riccardo Figliozzi - riccardo.figliozzi@gmail.com
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Tailwind]: https://img.shields.io/badge/Tailwind-blue?style=for-the-badge&logo=tailwind&logoColor=white
 [Tailwind-url]: https://tailwindcss.com
+[Stripe]: https://img.shields.io/badge/Stripe-purple?style=for-the-badge&logo=stripe&logoColor=white
+[Stripe-url]: https://stripe.com
