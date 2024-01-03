@@ -1,6 +1,6 @@
 # Django Projects
 
-In this repository there are the projects that I made using Django by following the following courses:
+In this repository there are some projects that I made using Django by following the courses:
 
 - [Django Masterclass : Build 9 Real World Django Projects](https://www.udemy.com/course/django-course/)
 - [Python Django - The Practical Guide](https://www.udemy.com/course/python-django-the-practical-guide/)
