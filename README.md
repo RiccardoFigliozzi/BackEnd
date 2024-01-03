@@ -16,8 +16,6 @@ Here the major frameworks/libraries used in these projects:
 * [![CSS][CSS]][CSS-url]
 * [![Tailwind][Tailwind]][Tailwind-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -25,8 +23,6 @@ Here the major frameworks/libraries used in these projects:
 Riccardo Figliozzi - riccardo.figliozzi@gmail.com
 
 [![Linkedin][linkedin-shield]][linkedin-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
