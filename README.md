@@ -9,22 +9,59 @@ In this repository there are some projects that I made using Django by following
 
 Here the major frameworks/libraries used in these projects:
 
-* [![Python][Python]][Python-url]
-* [![Django][Django]][Django-url]
-* [![Django-Rest-Framework][Django-Rest-Framework]][Django-Rest-Framework-url]
-* [![HTML][HTML]][HTML-url]
-* [![CSS][CSS]][CSS-url]
-* [![Tailwind][Tailwind]][Tailwind-url]
-* [![Stripe][Stripe]][Stripe-url]
+- [![Python][Python]][Python-url]
+- [![Django][Django]][Django-url]
+- [![Django-Rest-Framework][Django-Rest-Framework]][Django-Rest-Framework-url]
+- [![HTML][HTML]][HTML-url]
+- [![CSS][CSS]][CSS-url]
+- [![Tailwind][Tailwind]][Tailwind-url]
+- [![Stripe][Stripe]][Stripe-url]
 
+<!-- EXAMPLES -->
+## Examples
+
+&nbsp;
+
+<p align="center">
+<a href="Marketplace" >
+Digital Marketplace
+</a>
+</p>
+
+<p align="center">
+  <img src="media/marketplace.gif" alt="animated" />
+</p>
+
+&nbsp;
+
+<p align="center">
+<a href="Chat_real_time" >
+Chat in real time
+</a>
+</p>
+
+<p align="center">
+  <img src="media/chat.gif" alt="animated" />
+</p>
+
+&nbsp;
+
+<p align="center">
+<a href="Calorie_count" >
+Calorie Tracker
+</a>
+</p>
+
+<p align="center">
+<img src="media/calorie.gif" alt="animated" />
+</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Riccardo Figliozzi - riccardo.figliozzi@gmail.com
+Riccardo Figliozzi - <riccardo.figliozzi@gmail.com>
 
 [![Linkedin][linkedin-shield]][linkedin-url]
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -44,6 +81,3 @@ Riccardo Figliozzi - riccardo.figliozzi@gmail.com
 [Tailwind-url]: https://tailwindcss.com
 [Stripe]: https://img.shields.io/badge/Stripe-purple?style=for-the-badge&logo=stripe&logoColor=white
 [Stripe-url]: https://stripe.com
-
-
-![](media/marketplace.mov)
