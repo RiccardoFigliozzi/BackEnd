@@ -44,3 +44,6 @@ Riccardo Figliozzi - riccardo.figliozzi@gmail.com
 [Tailwind-url]: https://tailwindcss.com
 [Stripe]: https://img.shields.io/badge/Stripe-purple?style=for-the-badge&logo=stripe&logoColor=white
 [Stripe-url]: https://stripe.com
+
+
+![](media/marketplace.mov)
